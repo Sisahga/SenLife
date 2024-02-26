@@ -2,9 +2,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>SenLife</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Welcome to SunLife</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #8ACB4A">
+            <div class="container">
+                <a class="navbar-brand" href="#">SenLife</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#introduction">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#problem">The Problem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#solution">Our Solution</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#research">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#personas">Personas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#usergoals">User Goals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#userjourney">User Journey</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-5">
+        <section id="introduction" class="py-3">
+            <div class="container">
+                <h2>Introduction</h2>
+                <p>The elderly population often faces a disparity between their lifespan and healthspan, underscoring the necessity for technologies that enhance their well-being. However, current technologies often lack adaptability and elder-friendly designs, impeding their acceptance and usage among this demographic.</p>
+            </div>
+        </section>
+
+        <section id="problem" class="py-3">
+            <div class="container">
+                <h2>The Problem</h2>
+                <p>Despite a growing proficiency among many elderly individuals in using mobile devices and exploring new technologies, the existing solutions fail to adequately meet their needs. Moreover, the COVID-19 pandemic has exacerbated the need for technologies supporting the well being of the elderly, particularly during periods of social distancing and isolation.</p>
+            </div>
+        </section>
+
+        <section id="solution" class="py-3">
+            <div class="container">
+                <h2>Our Solution</h2>
+                <p>To address these challenges, our design company, Flying Turtles, is developing an app tailored to support the physical and mental well-being of elderly users. This solution, which is focused in simplicity, incorporates big buttons and checklists for ease of use, offers virtual assistance to address technical and health-related issues, provides wellness reminders for activities like walking and hydration, notifies users about local activities, catered to the elderly, and includes a news section curated for their interests and needs.
+                </p>
+            </div>
+        </section>
+
+        <section id="research" class="py-3">
+            <div class="container">
+                <h2>Research</h2>
+            </div>
+            <div class="container mt-3">
+                <h3>Surveys</h3>
+                <p>To accurately assess which features would be useful for users of this platform, we have conducted a survey asking six people between the ages of 50 to 80 about their current technology usage habits, preferred devices, and favorite apps.</p>
+            </div>
+            <div class="container mt-2 mb-2">
+                <h4>Quotes from participants</h4>
+            </div>
+            <div class="container mt-2">
+                <p><b>Participant 1 (Age 72):</b> “ I use my smartphone for everything from staying in touch with family to reading news. The app should have clear buttons and easy navigation like my favorite news app.”</p>
+            </div>
+            <div class="container mt-2">
+                <p><b>Participant 2 (Age 80):</b> “I find technology confusing sometimes. It would be helpful if the app had a virtual assistant to guide me through any problems I encounter.”</p>
+            </div>
+            <div class="container mt-2">
+                <p><b>Participant 3 (Age 68):</b> “I’m always out and about, so reminders to go for walks and stay hydrated would be great. It would help me stay on track with my daily routine.”</p>
+            </div>
+            <div class="container mt-2">
+                <p><b>Participant 4 (Age 75):</b> “Since the pandemic, I’ve felt really lonely. It would mean a lot if the app could notify me about local activities for seniors. It could help me connect with others.”</p>
+            </div>
+            <div class="container mt-2">
+                <p><b>Participant 5 (Age 82):</b> “As someone with poor eyesight, I struggle with small fonts and cluttered screens. The app should have options for larger text and high contrast colors for easier readability.”</p>
+            </div>
+            <div class="container mt-2">
+                <p><b>Participant 6 (Age 55):</b> “I take care of my elderly parents, and it’s challenging to keep track of their health needs. A feature to set medication reminders and monitor their well-being would be incredibly helpful.”</p>
+            </div>
+        </section>
+        <section id="personas" class="py-3">
+            <div class="container">
+                <h2>Personas</h2>
+                <p>Three personas are created to provide a diverse range of user profiles, each with unique goals, frustrations, and preferences, which can help inform the design and development of the web app to meet the needs of different users in Quebec or Montreal.</p>
+            </div>
+            
+            <div class="container d-flex flex-column py-5">
+                <div>
+                    <h3>Persona 1: Marie-Claire Dubois</h3>
+                </div>
+                <div class="d-flex">
+                    <div class="container w-50">
+                        <img src="/public/MCDpersona.png" alt="Marie-Claire Dubois persona card" style="max-width: 100%">
+                    </div>
+                    <div class="container w-50">
+                        <div class="card">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Goals:</strong> To stay connected with her grandchildren, manage her health effectively, and find local activities to stay socially engaged.</li>
+                                    <li class="list-group-item"><strong>Frustrations:</strong> Difficulty navigating complex technology interfaces, feeling isolated from her family due to distance, and managing her chronic health conditions.</li>
+                                    <li class="list-group-item"><strong>Bio:</strong> Marie-Claire is a retired school teacher living in Montreal. She enjoys spending time with her family, knitting, and attending community events.</li>
+                                    <li class="list-group-item"><strong>Myers-Briggs Personality:</strong> ISFJ (The Defender)</li>
+                                    <li class="list-group-item"><strong>Age:</strong> 70</li>
+                                    <li class="list-group-item"><strong>Work:</strong> Retired</li>
+                                    <li class="list-group-item"><strong>Family:</strong> Married with two adult children and three grandchildren living in different provinces.</li>
+                                    <li class="list-group-item"><strong>Character:</strong> Caring, traditional, reliable</li>
+                                    <li class="list-group-item"><strong>Motivation:</strong> To maintain a healthy and active lifestyle while staying connected with her loved ones.</li>
+                                    <li class="list-group-item"><strong>Devices:</strong> iPad, iPhone</li>
+                                    <li class="list-group-item"><strong>Web Apps:</strong> Facebook, Messenger, Google Maps</li>
+                                    <li class="list-group-item"><strong>App Usage:</strong>
+                                        <ul>
+                                            <li>Staying connected with family (4/5).</li>
+                                            <li>Managing health (3/5).</li>
+                                            <li>Finding local activities (5/5).</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex flex-column py-5">
+                <div>
+                    <h3>Persona 2: Philippe Tremblay</h3>
+                </div>
+                <div class="d-flex">
+                    <div class="container w-50">
+                        <img src="/public/PTpersona.png" alt="Philippe Tremblay persona card" style="max-width: 100%">
+                    </div>
+                    <div class="container w-50">
+                        <div class="card">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Goals:</strong> To stay mentally stimulated during retirement, connect with like-minded individuals, and learn new skills.</li>
+                                    <li class="list-group-item"><strong>Frustrations:</strong> Feeling technologically overwhelmed by complex apps, limited social interactions after retiring, and finding relevant information online.</li>
+                                    <li class="list-group-item"><strong>Bio:</strong> Philippe is a retired engineer living in Quebec City. He enjoys reading, gardening, and attending lectures on various topics.</li>
+                                    <li class="list-group-item"><strong>Myers-Briggs Personality:</strong> INTP (The Logician)</li>
+                                    <li class="list-group-item"><strong>Age:</strong> 65</li>
+                                    <li class="list-group-item"><strong>Work:</strong> Retired Engineer</li>
+                                    <li class="list-group-item"><strong>Location:</strong> Quebec City</li>
+                                    <li class="list-group-item"><strong>Family:</strong> Divorced with two grown-up children living in different provinces.</li>
+                                    <li class="list-group-item"><strong>Character:</strong> Analytical, curious, independent</li>
+                                    <li class="list-group-item"><strong>Motivation:</strong> To continue learning and exploring new interests in retirement while staying connected with a community of peers.</li>
+                                    <li class="list-group-item"><strong>Devices:</strong> Laptop, android phone</li>
+                                    <li class="list-group-item"><strong>Web Apps:</strong> Reddit, Youtube</li>
+                                    <li class="list-group-item"><strong>App Usage:</strong>
+                                        <ul>
+                                            <li>Staying connected with family (5/5).</li>
+                                            <li>Managing health (4/5).</li>
+                                            <li>Finding local activities (3/5).</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex flex-column py-5">
+                <div>
+                    <h3>Persona 3: Fatima Ali</h3>
+                </div>
+                <div class="d-flex">
+                    <div class="container w-50">
+                        <img src="/public/FApersona.png" alt="Fatima Ali persona card" style="max-width: 100%">
+                    </div>
+                    <div class="container w-50">
+                        <div class="card">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Goals:</strong> To manage her busy schedule effectively, maintain a healthy lifestyle, and stay updated on community events.</li>
+                                    <li class="list-group-item"><strong>Frustrations:</strong> Juggle multiple responsibilities as a working mother, finding time for self-care, and accessing reliable local information.</li>
+                                    <li class="list-group-item"><strong>Bio:</strong> Fatima is a marketing executive living in Montreal. She is passionate about fitness, cooking, and volunteering in her community.</li>
+                                    <li class="list-group-item"><strong>Myers-Briggs Personality:</strong> ESTJ (The Executive)</li>
+                                    <li class="list-group-item"><strong>Age:</strong> 40</li>
+                                    <li class="list-group-item"><strong>Work:</strong> Marketing Executive</li>
+                                    <li class="list-group-item"><strong>Location:</strong> Montreal</li>
+                                    <li class="list-group-item"><strong>Family:</strong> Divorced with two grown-up children living in different provinces.</li>
+                                    <li class="list-group-item"><strong>Character:</strong> Organized, practical, ambitious</li>
+                                    <li class="list-group-item"><strong>Motivation:</strong> To balance her professional career, family responsibilities, and personal interests efficiently while staying engaged in her community.</li>
+                                    <li class="list-group-item"><strong>Devices:</strong> iPhone, iPad, Macbook</li>
+                                    <li class="list-group-item"><strong>Web Apps:</strong> Google Calendar, Google Keep, MyFitnessPa, Facebook</li>
+                                    <li class="list-group-item"><strong>App Usage:</strong>
+                                        <ul>
+                                            <li>Staying connected with family (5/5).</li>
+                                            <li>Managing health (4/5).</li>
+                                            <li>Finding local activities (3/5).</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="usergoals" class="py-3">
+            <div class="container">
+                <h2>User Goals</h2>
+                <p>According to the above personas, the key user goals across the personas include staying connected with loved ones, managing health effectively, finding local activities for social engagement, staying mentally stimulated, connecting with like-minded individuals, learning new skills, managing a busy schedule efficiently, maintaining a healthy lifestyle, and staying updated on community events. These goals reflect a diverse range of needs and motivations among users, emphasizing the importance of designing a web app that accommodates various user preferences and aspirations, ultimately enhancing their overall experience and satisfaction with the platform.
+                </p>
+            </div>
+        </section>
+
+        <section id="userjourney" class="py-3">
+            <div class="container">
+                <h2>User Journey</h2>
+                <p>Using the persona of Fatima Ali, we demonstrate a user journey mapped out using a “Thinks, Does, Feels” framework according to her app usage.</p>
+            </div>
+            <div class="p-3 container mb-3" style="background-color: #FFF49B; border-radius: 0.25rem;">
+                <div class="container">
+                    <h4>Thinks:</h4>
+                    <p>“I hope this app helps me stay organized and on top of my responsibilities.”</p>
+                </div>
+                <div class="container">
+                    <h4>Does:</h4>
+                    <p>Sets up task lists and reminders for important tasks and deadlines.</p>
+                </div>
+                <div class="container">
+                    <h4>Feels:</h4>
+                    <p>Feels relieved to have a  platform to manage her schedule, reducing her stress and anxiety.</p>
+                </div>
+            </div>
+            <div class="p-3 container mb-3" style="background-color: #FFF49B; border-radius: 0.25rem;">
+                <div class="container">
+                    <h4>Thinks:</h4>
+                    <p>“I should focus on my health and well-being.”</p>
+                </div>
+                <div class="container">
+                    <h4>Does:</h4>
+                    <p>Sets reminders for hydration and meal times to stay on track with healthy habits.</p>
+                </div>
+                <div class="container">
+                    <h4>Feels:</h4>
+                    <p>Feels motivated and accountable to stick to her nutrition goals.</p>
+                </div>
+            </div>
+            <div class="p-3 container mb-3" style="background-color: #FFF49B; border-radius: 0.25rem;">
+                <div class="container">
+                    <h4>Thinks:</h4>
+                    <p>“I want to stay connected with my community and join local events.”</p>
+                </div>
+                <div class="container">
+                    <h4>Does:</h4>
+                    <p>Check the app’s community events calendar to stay updated with local events.</p>
+                </div>
+                <div class="container">
+                    <h4>Feels:</h4>
+                    <p>Feels connected and engaged with her community.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Flying Turtles. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
